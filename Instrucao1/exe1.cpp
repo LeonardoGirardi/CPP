@@ -17,7 +17,7 @@ int main() {
 
     printf("Soma = %d\n", num1 + num2);
     printf("Diferença = %d\n", num1 - num2);
-    printf("Divisão = %d\n", num1 / num2);
+    printf("Divisão = %.2f\n", (float)num1 / num2);
     printf("Multiplicação = %d\n", num1 * num2);
 
     return 0;
